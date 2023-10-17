@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styless.css">
+	<title>CookingPro</title>
+</head>
+<body>
+	<header>
+		<h1>Food Recipe App</h1>
+		<div class="search">
+			<input type="text" id="searchInput" 
+			placeholder="Enter an ingredient...">
+			<button id="searchButton">Search</button>
+		</div>
+	</header>
+
+	<div id="mealList" class="meal-list"></div>
+	<div class="modal-container">
+		<button id="recipeCloseBtn" class="close-button">&times;
+		</button>
+		<div class="meal-details-content">
+			<!-- Content from js file will be inserted in this section -->
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
